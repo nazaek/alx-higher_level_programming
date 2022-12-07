@@ -1,21 +1,8 @@
 #!/usr/bin/python3
 
-
-
-
-
-
-
-if __name__ == "__main__":
-
-
-
-    from variable_load_5 import a
-
-
-
-
-
-
-
-    print(a)
+def no_c(my_string):
+    updated_str = ''
+    for i in my_string:
+        if i != 'c' and i != 'C':
+            updated_str += i
+    return (updated_str)
